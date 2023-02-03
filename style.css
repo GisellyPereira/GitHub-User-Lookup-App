@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #204051;
+    color: #E7DFD5;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.all{
+    padding: 30px;
+    margin-top: 50px;
+
+}
+.toper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.toper h2{
+    color: #E7DFD5;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.dark-light{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dark-light p{
+    margin-right: 10px;
+}
+.dark-light img{
+    width: 20px;
+}
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa input{
+    border: 1px solid #204051;
+    border-radius: 5px;
+    background-color: #3B6978;
+    color: #E7DFD5;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px;
+    width: 800px;
+    height: 50px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.pesquisa input::placeholder{
+    color: #E7DFD5;
+}
+.pesquisa input:focus{
+    border: 1px solid #84A9AC;
+}
+.pesquisa button{
+    background-color: #3B6978;
+    border-radius: 5px;
+    color: #E7DFD5;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    margin-left: 10px;
+    height: 45px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.pesquisa button:hover{
+    background-color: #E7DFD5;
+    color: #204051;
+    cursor: pointer;
+}
+
+
+
+.gitPesquisa{
+    background: #3B6978;
+    padding: 30px;
+    border-radius: 12px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.perfil{
+    display: flex;
+}
+.infos{
+    margin-left: 20px;
+    align-items: center;
+}
+.nomePerfil{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.bioPerfil{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #204051;
+}
+.linkVerPerfil{
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #E7DFD5;
+}
+.imgPerfil{
+    width: 150px;
+    height: 150px;
+    border: 3px solid #204051;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.dados{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background: #204051;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.repos{
+    font-size: 20px;
+    font-weight: 700;
+    color: #E7DFD5;
+}
+.valorRepos{
+    font-size: 20px;
+    font-weight: 700;
+    color: #84A9AC;
+}
+.infoPessoais{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.infoPessoais-01{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #E7DFD5;
+    
+}
+.infoPessoais-02{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #E7DFD5;
+}
+.icones-social{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.website{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.comapny{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
