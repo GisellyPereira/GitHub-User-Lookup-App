@@ -265,25 +265,22 @@ body.Mudardark button:hover{
     justify-content: space-between;
     padding: 5px;
     position: relative;
-    height:25px ;
-    width: 50px;
+    height:30px ;
+    width: 55px;
     transform: scale(1.0);
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
-.label img{
-    height: 20px;
-    width: 20px;
-}
+
 .label .ball{
     background: #B3A3BA;
     border-radius: 50%;
     position: absolute;
-    top: 3.1px;
+    top: 3.5px;
     left: 0px;
   
   
-    height: 20px;
-    width: 20px;
+    height: 22px;
+    width: 22px;
   
     transform: translateX(4px);
     transition: transform 0.2s linear;
@@ -370,16 +367,6 @@ body.Mudardark button:hover{
 }
 
 @media (max-width:508px){
-    .all{
-        padding: 30px;
-        margin-top: 20px;
-    }
-    .toper h2{
-        font-size: 20px;
-    }
-    .toper{
-        margin-bottom: 150px;
-    }
     .bioPerfil{
         font-size: 15px;
     }
