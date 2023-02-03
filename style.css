@@ -370,6 +370,16 @@ body.Mudardark button:hover{
 }
 
 @media (max-width:508px){
+    .all{
+        padding: 30px;
+        margin-top: 20px;
+    }
+    .toper h2{
+        font-size: 20px;
+    }
+    .toper{
+        margin-bottom: 150px;
+    }
     .bioPerfil{
         font-size: 15px;
     }
