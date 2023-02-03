@@ -5,9 +5,9 @@
     margin: 0;
 }
 body{
-    background-color: #204051;
-    color: #E7DFD5;
-    font-family: 'Playfair Display', serif;
+    background-color: #28193d;
+    color: #68507B;
+    font-family: 'Space Mono', monospace;
     font-size: 16px;
     line-height: 1.5;
     max-width: 800px;
@@ -25,74 +25,63 @@ body{
     margin-bottom: 20px;
 }
 .toper h2{
-    color: #E7DFD5;
+    color: #B3A3BA;
     font-size: 30px;
     font-weight: 700;
     margin: 0;
     padding: 0;
 }
-.dark-light{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.dark-light p{
-    margin-right: 10px;
-}
-.dark-light img{
-    width: 20px;
-}
+
 .pesquisa{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .pesquisa input{
-    border: 1px solid #204051;
+    font-family: 'Space Mono', monospace;
+    border: 1px solid #46315c;
     border-radius: 5px;
-    background-color: #3B6978;
-    color: #E7DFD5;
+    background-color: #46315c;
+    color: #B3A3BA;
     font-size: 15px;
     font-weight: 700;
     padding: 10px;
     width: 800px;
     height: 50px;
     outline: none;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 .pesquisa input::placeholder{
-    color: #E7DFD5;
+    color: #B3A3BA;
 }
 .pesquisa input:focus{
-    border: 1px solid #84A9AC;
+    border: 1px solid #B3A3BA;
 }
 .pesquisa button{
-    background-color: #3B6978;
+    font-family: 'Space Mono', monospace;
+    background-color: #46315c;
     border-radius: 5px;
-    color: #E7DFD5;
+    color: #B3A3BA;
     font-size: 16px;
     font-weight: 700;
     padding: 10px;
     margin-left: 10px;
     height: 45px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .pesquisa button:hover{
-    background-color: #E7DFD5;
-    color: #204051;
+    background-color: #B3A3BA;
+    color: #46315c;
     cursor: pointer;
 }
 
-
-
 .gitPesquisa{
-    background: #3B6978;
+    background: #46315c;
     padding: 30px;
     border-radius: 12px;
     margin-top: 50px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .perfil{
     display: flex;
@@ -105,22 +94,23 @@ body{
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 10px;
+    color: #B3A3BA;
 }
 .bioPerfil{
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 10px;
-    color: #204051;
+    color: #28193d;
 }
 .linkVerPerfil{
     font-weight: 700;
     margin-bottom: 10px;
-    color: #E7DFD5;
+    color: #B3A3BA;
 }
 .imgPerfil{
     width: 150px;
     height: 150px;
-    border: 3px solid #204051;
+    border: 3px solid #28193d;
     border-radius: 50%;
     margin-bottom: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -129,7 +119,7 @@ body{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    background: #204051;
+    background: #28193d;
     border-radius: 12px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -137,12 +127,12 @@ body{
 .repos{
     font-size: 20px;
     font-weight: 700;
-    color: #E7DFD5;
+    color: #B3A3BA;
 }
 .valorRepos{
     font-size: 20px;
     font-weight: 700;
-    color: #84A9AC;
+    color: #46315c;
 }
 .infoPessoais{
     display: flex;
@@ -152,13 +142,13 @@ body{
 .infoPessoais-01{
     font-size: 20px;
     margin-left: 20px;
-    color: #E7DFD5;
+    color: #B3A3BA;
     
 }
 .infoPessoais-02{
     font-size: 20px;
     margin-bottom: 20px;
-    color: #E7DFD5;
+    color: #B3A3BA;
 }
 .icones-social{
     width: 30px;
@@ -185,4 +175,245 @@ body{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+}
+
+
+
+
+body.Mudardark{
+    background: 	#8D799A;
+    transition: all 0.2s ;
+}
+body.Mudardark .toper h2{
+    color: #D9D8D9;
+}
+body.Mudardark .toper .dark-light p{
+    color: #D9D8D9;
+}
+body.Mudardark .gitPesquisa{
+    background: #68507B;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+body.Mudardark .gitPesquisa .perfil .infos .nomePerfil{
+    color: #D9D8D9;
+}
+body.Mudardark .gitPesquisa .perfil .imgPerfil{
+    border: 3px solid #8D799A;
+}
+body.Mudardark .gitPesquisa .perfil .infos .bioPerfil{
+    color: #28193d;
+}
+body.Mudardark .gitPesquisa .perfil .infos .linkVerPerfil{
+    color: #D9D8D9;
+}
+body.Mudardark .gitPesquisa .dados{
+    background: #B3A3BA;
+}
+body.Mudardark .pesquisarUser{
+    background: #68507B;
+}
+body.Mudardark .pesquisa input{
+    background: #68507B;
+    color: #B3A3BA;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+body.Mudardark .pesquisa input::placeholder{
+    color: #B3A3BA;
+}
+body.Mudardark .repos{
+    color: #28193d;
+}
+body.Mudardark .valorRepos{
+    color: #68507B;
+}
+body.Mudardark .infoPessoais-01{
+    color: #D9D8D9;
+}
+body.Mudardark .infoPessoais-02{
+    color: #D9D8D9;
+}
+body.Mudardark .pesquisa button{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+body.Mudardark button:hover{
+    background-color: #28193d;
+    color: #D9D8D9;
+}
+
+
+.dark-light{
+    justify-content: end;
+    top: 20px;
+    right: 120px;
+    display: flex;
+    align-items: center;
+    transition: background 0.8 linear;
+    display: flex;
+    
+}
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.label{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background: #46315c;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height:25px ;
+    width: 50px;
+    transform: scale(1.0);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.label img{
+    height: 20px;
+    width: 20px;
+}
+.label .ball{
+    background: #B3A3BA;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.1px;
+    left: 0px;
+  
+  
+    height: 20px;
+    width: 20px;
+  
+    transform: translateX(4px);
+    transition: transform 0.2s linear;
+}
+.checkbox:checked + .label .ball{
+    transform:translateX(27px) ;
+}
+.checkbox:checked + .label{
+        background: #68507B;
+}
+.checkbox:checked + .label .ball{
+    background: #D9D8D9;
+}
+
+.dark-light p{
+    margin-right: 10px;
+}
+.dark-light img{
+    width: 20px;
+}
+
+
+@media (max-width:600px){
+    .all{
+        padding: 30px;
+        margin-top: 30px;
+    
+    }
+    .toper h2{
+        font-size: 23px;
+    }
+    .pesquisa input{   
+        height: 40px;
+    }
+    .pesquisa button{
+        height: 40px;
+    }
+    .gitPesquisa{
+        padding: 20px;
+    }
+    .nomePerfil{
+        font-size: 23px;
+        margin-bottom: 7px;
+    }
+    .bioPerfil{
+        font-size: 18px;
+        margin-bottom: 7px;
+    }
+    .linkVerPerfil{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .imgPerfil{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 0px;
+    }
+    .dados{
+        padding: 16px;
+    }
+    .repos{
+        font-size: 18px;
+    }
+    .valorRepos{
+        font-size: 18px;
+    }
+    .infoPessoais{
+        display: block;
+        margin: 30px;
+    }
+    .infoPessoais-01{
+        font-size: 18px;
+        margin-left: 0px;  
+    }
+    .infoPessoais-02{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .icones-social{
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+@media (max-width:508px){
+    .bioPerfil{
+        font-size: 15px;
+    }
+    .pesquisa input{   
+        height: 30px;
+        font-size: 12px;
+    }
+    .pesquisa button{
+        height: 30px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .nomePerfil{
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+    .bioPerfil{
+        font-size: 15px;
+        margin-bottom: 7px;
+    }
+    .linkVerPerfil{
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    .imgPerfil{
+        width: 95px;
+        height: 95px;
+    }
+    .repos{
+        font-size: 15px;
+    }
+    .valorRepos{
+        font-size: 15px;
+    }
+    .infoPessoais-01{
+        font-size: 15px;
+        margin-left: 0px;  
+    }
+    .infoPessoais-02{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .icones-social{
+        width: 22px;
+        height: 22px;
+    }
 }

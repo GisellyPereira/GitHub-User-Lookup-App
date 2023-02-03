@@ -54,27 +54,23 @@ btnPesquisar.addEventListener('click', () => {
         data.company === "" || data.company === null
           ? "No Company"
           : data.company;
-           
-
-            
-            
-            
+              
 
         }
-
-
-
-        
-
         
     );
-
-        
-
 
 
 
 });
+
+const dark = document.querySelector(".checkbox");
+    const body = document.querySelector("body");
+
+    dark.onclick = function () {
+      body.classList.toggle("Mudardark");
+    };
+
 
 
         
