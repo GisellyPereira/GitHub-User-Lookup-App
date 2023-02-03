@@ -1,2 +1,2 @@
 # GitHub-User-Lookup-App
-<img src="imgs/GitHun User.gif" alt="">
+<img src="imgs/GitHub User.gif" alt="">
